@@ -1,0 +1,31 @@
+.theme{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    width: 30px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: green;
+}
+.box3{
+    background-color: yellow;
+}
+.title--red{
+    background-color: red;
+    width: 30%;
+}
+.title-yellow{
+    background-color: yellow;
+    width: 30%;
+}
+.title-green{
+    background-color: green;
+    width: 30%;
+}
